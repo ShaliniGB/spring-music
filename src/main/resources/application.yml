@@ -7,18 +7,18 @@ spring:
 # turn off the security on the actuator end points as this is a demo app
 management:
   security:
-    enabled: false
+    enabled: true
 security:
  basic:
   enabled: false
- user:
-  name: shalini
- oauth2:
-  client:
-   client-id: 4a68c958-1050-41b6-9a9b-860988652113
-   client-secret: c5899aa8-6fbd-488c-8521-7fea006f5025
-  resource:
-   token-info-uri: http://localhost:8080/oauth/check_token
+# user:
+#  name: shalini
+# oauth2:
+#  client:
+#   client-id: 4a68c958-1050-41b6-9a9b-860988652113
+#   client-secret: c5899aa8-6fbd-488c-8521-7fea006f5025
+#  resource:
+#   token-info-uri: http://localhost:8080/oauth/check_token
 server:
  port : 1081
 #endpoints:
