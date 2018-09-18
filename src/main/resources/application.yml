@@ -13,12 +13,14 @@ security:
   enabled: false
  user:
   name: shalini
+  password: password
  oauth2:
-  client:
-   client-id: 4a68c958-1050-41b6-9a9b-860988652113
-   client-secret: c5899aa8-6fbd-488c-8521-7fea006f5025
+#  client:
+#   client-id: f7e51be9-9cb0-45f1-bc1c-b8a6a03af756
+#   client-secret: 60e2b274-2966-4a7a-b239-c429dee5768f
   resource:
-   token-info-uri: http://localhost:8080/oauth/check_token
+#   token-info-uri: http://localhost:8080/oauth/check_token
+   id: oauth2_id
 server:
  port : 1081
 #endpoints:
