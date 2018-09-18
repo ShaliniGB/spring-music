@@ -1,6 +1,8 @@
 
 ---
 spring:
+ application:
+  name: "Spring-Music-Demo"
   jpa:
     generate-ddl: true
 
